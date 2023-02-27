@@ -1,8 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+
+
+
 body{
-  @apply bg-gray-800;
-  @apply text-slate-100;
+  background:#e4e4e4;
+  @apply text-black;
+  -webkit-tap-highlight-color: transparent;
+
+}
+
+
+#app{
+  font-family: 'Inter', sans-serif;
+
 }
